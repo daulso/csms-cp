@@ -1,0 +1,23 @@
+{
+  "name": "csms-cp",
+  "version": "1.0.0",
+  "description": "csms compiler",
+  "main": "\u001b[D\u001b[D\u001b[D\u001bapp\u001b[C\u001b\u001b[C\u001b[C\u001b[C\u001bapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daulso/csms-cp.git"
+  },
+  "author": "CSMS-Daul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daulso/csms-cp/issues"
+  },
+  "homepage": "https://github.com/daulso/csms-cp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "wandbox-api": "0.0.0"
+  }
+}
