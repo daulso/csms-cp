@@ -9,7 +9,8 @@ runWandbox.fromString('console.log(1+1);',{'compiler':'nodejs-head'},function cl
 	var out=results;
 	console.log(out);
 	app.get('/',function(req,res){
-		res.send(out);
+		var res = JSON.parse(out);
+		res.send(res);
 	});
 });
 
