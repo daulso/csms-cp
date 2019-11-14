@@ -7,10 +7,10 @@ runWandbox.fromString('console.log(1+1);',{'compiler':'nodejs-head'},function cl
 		throw new Error(error.message);
 	}
 	var out=results;
-	console.log(out);
+	
 	app.get('/',function(req,res){
-		var res = JSON.parse(out);
-		res.send(res);
+		var response = JSON.parse(JSON.stringify(out));
+		res.send(response['program_output']);
 	});
 });
 
