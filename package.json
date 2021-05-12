@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/daulso/csms-cp#readme",
   "dependencies": {
-    "codemirror": "^5.49.2",
+    "codemirror": "^5.58.2",
     "compile-run": "^2.3.2",
     "express": "^4.17.1",
     "wandbox-api": "0.0.0"
