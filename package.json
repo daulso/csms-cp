@@ -19,7 +19,7 @@
   "dependencies": {
     "codemirror": "^5.49.2",
     "compile-run": "^2.3.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "wandbox-api": "0.0.0"
   }
 }
